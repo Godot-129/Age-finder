@@ -1,0 +1,19 @@
+#required information
+name = input("What is your name?")
+currentyear = int(input("What is the current year?"))
+currentmonth = int(input("What is the current month?"))
+currentdate = int(input("What is the current date"))
+
+#Date of birth 
+
+yearofbirth = int(input("What is the year on which you were born?(enter in numericals only)"))
+monthofbirth = int(input("What is the month on which you were born?(enter in numericals only)"))
+dayofbirth = int(input("What is the date on which you were born?(enter in numericals only)"))
+
+#final results
+print(currentyear - yearofbirth)
+print("year/s")
+print(currentmonth - monthofbirth) 
+print("month/s")
+print(currentdate - dayofbirth)
+print("day/s")
